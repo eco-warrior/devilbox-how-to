@@ -138,6 +138,8 @@ sudo docker-compose kill <- to kill all containers
 sudo docker-compose up -d httpd php mysql <- to download and start your new containers
 ```
 Open http://localhost to see if everything are working
+##### Screenshot:
+![screenshot](localhost.png)
 
 These instructions will get you through the bootstrap phase of creating and
 deploying samples of containerized applications with Docker Compose.
@@ -148,11 +150,11 @@ deploying samples of containerized applications with Docker Compose.
 >**Note**:
 > When you create a project always create a folder htdocs inside your project and put the www files there.
 ##### Screenshot:
-![screenshot](github-logo.png)
+![screenshot](htdocs.png)
 
 4.2 Go to Virtual Hosts tab at your localhost
 ##### Screenshot:
-![screenshot](github-logo.png)
+![screenshot](vhosts-not-set.png)
 
 4.3 Open and edit /etch/hosts:
 ```
@@ -162,7 +164,7 @@ sudo nano /etc/hosts
 
 4.4 Open your browser and type xenf.loc to see that is working.
 ##### Screenshot:
-![screenshot](github-logo.png)
+![screenshot](vhosts.png)
 
 
 ## Tips and Commands
