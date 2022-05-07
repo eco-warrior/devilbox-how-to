@@ -59,14 +59,14 @@ sudo docker run hello-world
 * The devilbox does not need to be installed. The only thing that is required is its git directory. To download that, open a terminal and copy/paste the following command.
 
 ```console
-- git clone https://github.com/cytopia/devilbox
+git clone https://github.com/cytopia/devilbox
 ```
 
 3.1 Create .env file
 Inside the cloned Devilbox git directory, you will find a file called env-example. This file is the main configuration with sane defaults for Docker Compose. In order to use it, it must be copied to a file named .env. (Pay attention to the leading dot).
 
 ```console
-- sudo cp env-example .env
+sudo cp env-example .env
 ```
 The .env file does nothing else then providing environment variables for Docker Compose and in this case it is used as the main configuration file for the Devilbox by providing all kinds of settings (such as which version to start up).
 
@@ -141,8 +141,6 @@ Open http://localhost to see if everything are working
 ##### Screenshot:
 ![screenshot](localhost.png)
 
-These instructions will get you through the bootstrap phase of creating and
-deploying samples of containerized applications with Docker Compose.
 
 ## Using Devilbox
 
